@@ -1,7 +1,7 @@
 A search parameter is a limitation applied to a search. Here are a few examples of advanced search parameters:
 
 site: returns files located on a particular website or domain.
-filetype: followed (without a space) by a file extension returns files of the specified type, such as DOC, PDF, XLS and INI. Multiple file types can be searched for simultaneously by separating extensions with “|”.
+filetype: followed (without space) by a file extension returns files of the specified type, such as DOC, PDF, XLS, and INI. Multiple file types can be searched for simultaneously by separating extensions with “|”.
 inurl: followed by a particular string returns results with that sequence of characters in the URL.
 intext: followed by the searcher’s chosen word or phrase returns files with the string anywhere in the text.
 Multiple parameters can be used, for example, to search for files of a certain type on a certain website or domain. The Public Intelligence website provides this example:
@@ -13,13 +13,13 @@ Those search parameters return PDF documents on that website’s servers with th
 ------------------------------------------------------------------------------------------
 SIMPLE DORKING:
 
-Vijay, ajith in search will get you the result of indian actor to avoid this result in my case i want to see the vijay who's not an actor and he lives in chennai
+Vijay, Ajith in search will get you the result of Indian actor to avoid this result in my case I want to see the Vijay who's not an actor and he lives in Chennai
 Search query = ["vijay" -actor -"Chennai"]    //"Seachkey" -removeresults ="addthisresults"
 
 ------------------------------------------------------------------------------------------
 HTTP/HTTPS DOMAIN:
 
-If you want to search for all the http/https domain with a specific extentions 
+If you want to search for all the http/https domain with specific extensions 
 Search query = [site:.in inurl:http]    //site:.extention inurl:request
 ------------------------------------------------------------------------------------------
 PASSWORD/LOG FILE DORKING:
