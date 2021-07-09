@@ -1,0 +1,46 @@
+A search parameter is a limitation applied to a search. Here are a few examples of advanced search parameters:
+
+site: returns files located on a particular website or domain.
+filetype: followed (without a space) by a file extension returns files of the specified type, such as DOC, PDF, XLS and INI. Multiple file types can be searched for simultaneously by separating extensions with “|”.
+inurl: followed by a particular string returns results with that sequence of characters in the URL.
+intext: followed by the searcher’s chosen word or phrase returns files with the string anywhere in the text.
+Multiple parameters can be used, for example, to search for files of a certain type on a certain website or domain. The Public Intelligence website provides this example:
+
+“sensitive but unclassified” filetype:pdf site:publicintelligence.net
+
+Those search parameters return PDF documents on that website’s servers with the string “sensitive but unclassified” anywhere in the document text.
+
+------------------------------------------------------------------------------------------
+SIMPLE DORKING:
+
+Vijay, ajith in search will get you the result of indian actor to avoid this result in my case i want to see the vijay who's not an actor and he lives in chennai
+Search query = ["vijay" -actor -"Chennai"]    //"Seachkey" -removeresults ="addthisresults"
+
+------------------------------------------------------------------------------------------
+HTTP/HTTPS DOMAIN:
+
+If you want to search for all the http/https domain with a specific extentions 
+Search query = [site:.in inurl:http]    //site:.extention inurl:request
+------------------------------------------------------------------------------------------
+PASSWORD/LOG FILE DORKING:
+
+If you want to find the log/password files or any file before or after a specific time use this dorking query
+Search query = [allintext:password filetype:txt after:2020]    //allintext:filename filetype:filetype after:year
+------------------------------------------------------------------------------------------
+TOOL WHAT I USE:
+
+So am assuming you know the basics of google dorking try this tool called pagodo (Passive GOogle Dorking) The goal of pagodo project was to develop a passive Google dork script to collect potentially vulnerable web pages and applications on the Internet. There are 2 parts. The first is ghdb_scraper.py that retrieves Google Dorks and the second portion is pagodo.py that leverages the information gathered by ghdb_scraper.py.
+Do check the video on my channel for the setup skip to 4:10 
+https://github.com/opsdisk/pagodo
+------------------------------------------------------------------------------------------
+Steps to use the tool:
+
+#inside terminal type [git clone https://github.com/opsdisk/pagodo.git]
+#cd pagodo/   //directory
+#python3 -m pip install -r requirements.txt   //install the requirements to pagodo
+#cd dors/
+#ls   //to list the dorking files
+#cat filename     //to get the command keyword query for google dorking 
+#python3 pagodo.py -d domain -g dorks/files_containing_juicy_info.dorks -1 30 -s -e 35.0 -j 1.0     //to get a big reconn data run it overnigh to see the report
+#cat resultfile   //to get the outfile 
+-----------------------------------------------------------------------------------------------------------------------
