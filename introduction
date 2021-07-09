@@ -1,0 +1,25 @@
+Usefull links : 
+https://www.exploit-db.com/google-hacking-database
+------------------------------------------------------------------------------------------
+
+“googleDorking,” also known as “Google hacking”, is a technique used by newsrooms, investigative organisations, security auditors as well as tech savvy criminals to query various search engines for information hidden on public websites and vulnerabilities exposed by public servers. Dorking is a way of using search engines to their full capacity to penetrate web-based services to depths that are not necessarily visible at first.
+
+All you need to carry out a googleDork is a computer, an internet connection and knowledge of the appropriate search syntax.
+
+This guide will describe what googleDorking is and how it works across different search engines, provide tips on how to protect yourself while googleDorking and suggest ways to protect your websites and servers from those who would use these techniques for malicious purposes.
+------------------------------------------------------------------------------------------
+
+History
+googleDorking has been in documented use since the early 2000s. Like many of the most successful hacks, googleDorking is not technically sophisticated. It simply requires that you use certain operators — special key words supported by a given search engine — correctly and sometimes creatively. Johnny Long, aka j0hnnyhax, was a pioneer of googleDorking. Johnny first posted his definition of the newly coined term in 2002.
+
+In an 2011 interview, Johnny Long said, “In the years I've spent as a professional hacker, I've learned that the simplest approach is usually the best. As hackers, we tend to get down into the weeds, focusing on technology, not realizing there may be non-technical methods at our disposal that work as well or better than their high-tech counterparts. I always kept an eye out for the simplest solution to advanced challenges.”
+
+Rather than an ordinary type of search query that focuses on a semantic way of asking questions, either directly through writing the whole question or selected key words, googleDorking is based on reverse engineering the way machines scan and index web content.
+
+In this context, googleDorking uses search functions beyond their semantic role, which not only changes how we typically imagine using search engines, but also vastly expands the capacity of the tool in the hands of people searching for a way of exploring content and access to various services.
+
+Such access might lead to the discovery of information that can be used for fraud or terrorism, finding information on yourself or your institution, as well as information that assists in the investigation of governments, corporations or powerful individuals.  These results, rather than being characteristic of the tool or method itself, instead rely on the intentions of those using googleDorking, the questions they are asking, and what they do with the results.
+
+Dorking exposes vulnerabilities and also unleashes the unintended, often powerful, consequences of searching search engines.
+
+------------------------------------------------------------------------------------------
